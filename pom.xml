@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="maven.apache.org"
+         xmlns:xsi="www.w3.org"
+         xsi:schemaLocation="maven.apache.org maven.apache.org">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.yourcompany.project</groupId>
+    <artifactId>weather-app</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <okhttp.version>4.12.0</okhttp.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>${okhttp.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
