@@ -8,7 +8,7 @@ public class Main{
         OkHttpClient client = new OkHttpClient();
 
         Request request = new Request.Builder()
-                .url("https://api.tomorrow.io/v4/weather/forecast?location=new%20york&apikey=SG2RiSUy8OoG0Yxl8hqgwyFAPEkFcgVK")
+                .url("https://api.tomorrow.io/v4/weather/forecast?location=new%20york&apikey=")
                 .get()
                 .addHeader("accept", "application/json")
                 .addHeader("accept-encoding", "deflate, gzip, br")
