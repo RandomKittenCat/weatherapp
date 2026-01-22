@@ -1,19 +1,11 @@
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
-import java.io.IOException;
+// WeatherCode0!
 
-public class Main{
-    public static void main(String[] args){
-        OkHttpClient client = new OkHttpClient();
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello and welcome!");
 
-        Request request = new Request.Builder()
-                .url("https://api.tomorrow.io/v4/weather/forecast?location=new%20york&apikey=")
-                .get()
-                .addHeader("accept", "application/json")
-                .addHeader("accept-encoding", "deflate, gzip, br")
-                .build();
-
-        Response response = client.newCall(request).execute();
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("i = " + i);
+        }
     }
 }
